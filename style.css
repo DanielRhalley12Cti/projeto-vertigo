@@ -80,7 +80,7 @@ main {
 }
 
 .login input:hover,
-.login input:focus  {
+.login input:focus {
     outline: 1px solid var(--purple);
 }
 
@@ -98,7 +98,7 @@ main {
     text-decoration: underline;
 }
 
-.login button{  
+.login button {
     margin-top: 1rem;
     margin-bottom: 2rem;
     padding-block: 1rem;
@@ -112,34 +112,53 @@ main {
     color: var(--white);
 }
 
-.login > p {
+.login>p {
     color: var(--gray-600);
 }
 
-.login > p a {
+.login>p a {
     font-weight: 700;
     font-size: 1rem;
 }
 
+.bg-desktop {
+    display: none;
+}
+
 @media(min-width: 1000px) {
 
-    body{
+    body {
         display: flex;
         height: 100vh;
     }
-    header{
+
+    header {
         background: none;
         justify-content: flex-start;
         margin: 2.5rem 7rem 7rem;
 
         height: fit-content;
-   }
-   header img{
-    width: 10rem;
-   }
-   main {
-    margin-inline: 7rem;
-    max-width: 24rem;
-    padding: 0';
-}
+    }
+
+    header img {
+        width: 10rem;
+    }
+
+    main {
+        margin-inline: 7rem;
+        max-width: 24rem;
+        padding: 0';
+
+    }
+
+    .conteudo {
+        width: 100%;
+
+    }
+
+
+    .bg-desktop {
+        display: block;
+        width: 100%;
+    }
 }
