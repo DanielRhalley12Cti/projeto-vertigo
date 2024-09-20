@@ -4,7 +4,14 @@
     box-sizing: border-box;
     font-family: 'Titilium Web', sans-serif;
 }
+
 header {
-background-image: url(./Imagens/img\ \(1\).png);
-background-size: cover;
+    background-image: url(./Imagens/img\ \(1\).png);
+    background-size: cover;
+    height: 8.375rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
